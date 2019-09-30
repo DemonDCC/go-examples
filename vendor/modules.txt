@@ -1,0 +1,4 @@
+# github.com/DemonDCC/go-examples v0.0.0-20190923161514-2c5a67b532b7
+github.com/DemonDCC/go-examples/nats/utils
+# github.com/srfrog/dict v0.0.2
+github.com/srfrog/dict
