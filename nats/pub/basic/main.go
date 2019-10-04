@@ -4,8 +4,8 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/DemonDCC/go-examples/nats/utils"
-	"github.com/nats.go"
+	"github.com/zhangce1999/go-examples/nats/utils"
+	"github.com/nats-io/nats.go"
 )
 
 func main() {

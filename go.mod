@@ -1,8 +1,9 @@
 module github.com/zhangce1999/go-examples
 
-go 1.12
+go 1.13
 
 require (
-	github.com/DemonDCC/go-examples v0.0.0-20190923161514-2c5a67b532b7
+	github.com/nats-io/nats-server/v2 v2.1.0 // indirect
+	github.com/nats-io/nats.go v1.8.1
 	github.com/srfrog/dict v0.0.2
 )
