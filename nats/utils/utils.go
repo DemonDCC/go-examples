@@ -3,7 +3,7 @@ package utils
 import (
 	"os"
 
-	"github.com/nats.go"
+	"github.com/nats-io/nats.go"
 )
 
 // NATS
