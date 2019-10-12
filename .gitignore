@@ -1,0 +1,5 @@
+# ignore the database directories
+db/
+
+# ignore test data
+test/
