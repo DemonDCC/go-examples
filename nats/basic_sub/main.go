@@ -5,8 +5,8 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/zhangce1999/go-examples/nats/utils"
 	nats "github.com/nats-io/nats.go"
+	"github.com/zhangce1999/go-examples/nats/utils"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	sub, err := conn.Subscribe("demon", defaultHandleFunc)
+	sub, err := conn.Subscribe("/demon", defaultHandleFunc)
 	if err != nil {
 		log.Println(err)
 	}
