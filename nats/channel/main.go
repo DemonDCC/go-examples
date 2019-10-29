@@ -24,7 +24,6 @@ func main() {
 			default:
 			}
 		}
-
 	}()
 
 	_, err = conn.ChanSubscribe("demon", ch)
