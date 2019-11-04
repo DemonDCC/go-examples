@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	testMapLength()
+	P(4)
 }
 
 func testChannelClose() {
@@ -24,3 +24,14 @@ func testMapLength() {
 
 	fmt.Println(len(m))
 }
+
+// P -
+func P(value int) {
+	if value > 0 {
+		P(value - 1)
+		fmt.Printf("%d", value)
+		P(value - 1)
+	}
+}
+
+// think how we can use stack to implement this function
